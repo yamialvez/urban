@@ -1,14 +1,12 @@
-@import'../base/variables';
-@import'../base/listas';
-
-section{
-  h1{
-   color:$font-color;
-   font-size: nth($font-size,1 );
+section {
+  h1 {
+    @extend %title
   }
-  .container{
+
+  .container {
     margin-bottom: 40px;
-    .proy-img{
+
+    .proy-img {
       width: 100%;
       height: 100%;
       object-fit: cover;

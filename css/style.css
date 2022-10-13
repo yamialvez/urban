@@ -2,46 +2,32 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Serif";
+  font-family: "Roboto Serif", serif;
 }
 
-.background-nav {
+.header-container .background-nav {
   background-color: lightgrey;
 }
-.background-nav .logo-nav {
+.header-container .background-nav .logo-nav {
   width: 5rem;
   height: 5rem;
 }
 @media only screen and (max-width: 450px) {
-  .background-nav .logo-nav {
+  .header-container .background-nav .logo-nav {
     width: 80px;
     height: 80px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
-  .background-nav .logo-nav {
+  .header-container .background-nav .logo-nav {
     width: 90px;
     height: 90px;
   }
 }
 
 .container-home .p-home {
-  font-size: 30px;
-  text-align: center;
   width: 100%;
   top: 5%;
-  color: grey;
-  line-height: 2;
-}
-@media only screen and (max-width: 450px) {
-  .container-home .p-home {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  .container-home .p-home {
-    font-size: 20px;
-  }
 }
 .container-home .nosotros {
   display: flex;
@@ -104,6 +90,7 @@ footer .footer-container {
 footer .footer-container .logo-footer {
   width: 100px;
   height: 100px;
+  margin-top: 30px;
 }
 @media only screen and (max-width: 450px) {
   footer .footer-container .logo-footer {
@@ -119,6 +106,7 @@ footer .footer-container .logo-footer {
 }
 footer .footer-container .mapa-del-sitio .mps {
   list-style: none;
+  margin-top: 20px;
 }
 footer .footer-container .mapa-del-sitio .mps .enlace-footer {
   color: black;
@@ -137,6 +125,7 @@ footer .footer-container .mapa-del-sitio .mps .enlace-footer {
 }
 footer .redes {
   list-style: none;
+  margin-top: 20px;
 }
 footer .redes .enlace-footer {
   color: black;
@@ -146,13 +135,13 @@ footer .redes .enlace-footer {
 @media only screen and (max-width: 450px) {
   footer .redes .enlace-footer {
     color: black;
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   footer .redes .enlace-footer {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 footer .redes .img-redes {
@@ -163,25 +152,21 @@ footer .redes .img-redes {
 }
 footer .copy {
   background-color: black;
-  color: grey;
+  color: gray;
   font-size: 20px;
   text-align: center;
 }
 @media only screen and (max-width: 450px) {
   footer .copy {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   footer .copy {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
-section h1 {
-  color: grey;
-  font-size: 35px;
-}
 section .container {
   margin-bottom: 40px;
 }
@@ -195,26 +180,11 @@ section .container .proy-img {
 }
 
 main .text-servicio {
-  font-size: 30px;
-  text-align: center;
   width: 100%;
   top: 5%;
-  color: grey;
   line-height: 2;
 }
-@media only screen and (max-width: 450px) {
-  main .text-servicio {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  main .text-servicio {
-    font-size: 20px;
-  }
-}
 main .sub-title {
-  font-size: 70px;
-  text-align: center;
   font-weight: 100;
   padding: 20px;
   text-decoration: none;
@@ -222,11 +192,11 @@ main .sub-title {
 }
 @media only screen and (max-width: 450px) {
   main .sub-title {
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 main .sub-title .colorServ {
-  color: grey;
+  color: #595959;
   text-decoration: none;
 }
 main .img-servicios {
@@ -250,29 +220,20 @@ main .img-servicios {
 }
 
 main .title-news {
-  font-size: 70px;
-  text-align: center;
-  color: grey;
   font-weight: 200;
   padding: 20px;
 }
 @media only screen and (max-width: 450px) {
   main .title-news {
-    font-size: 35px;
     font-weight: 200;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .title-news {
-    font-size: 55px;
     font-weight: 300;
     padding: 30px;
   }
-}
-main .noti-1 {
-  display: flex;
-  justify-content: center;
 }
 main .noti-1 .caja:hover {
   transform: scale(1.5);
@@ -295,14 +256,10 @@ main .noti-1 .img-infobae {
     height: 300px;
   }
 }
-main .enlace-infobae {
-  display: flex;
-  justify-content: center;
-}
 main .enlace-infobae .enlace-news {
   text-decoration: none;
   font-size: 30px;
-  color: rgb(55, 145, 32);
+  color: #1c658c;
   font-weight: bo;
 }
 @media only screen and (max-width: 450px) {
@@ -312,30 +269,12 @@ main .enlace-infobae .enlace-news {
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   main .enlace-infobae .enlace-news {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 main .p-new {
-  font-size: 30px;
-  text-align: center;
   width: 100%;
   top: 5%;
-  color: grey;
-  line-height: 2;
-}
-@media only screen and (max-width: 450px) {
-  main .p-new {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  main .p-new {
-    font-size: 30px;
-  }
-}
-main .noti-2 {
-  display: flex;
-  justify-content: center;
 }
 main .noti-2 .caja:hover {
   transform: scale(1.5);
@@ -354,52 +293,26 @@ main .noti-2 .img-ranking {
   }
 }
 main .newsletter {
-  display: flex;
-  justify-content: space-evenly;
   padding-top: 100px;
   padding-bottom: 10px;
   font-size: 20px;
 }
 @media only screen and (max-width: 450px) {
   main .newsletter {
-    font-size: 15px;
+    font-size: 20px;
+    padding-bottom: 50px;
   }
 }
 main .newsletter .new {
   width: 400px;
   height: 60px;
   text-align: center;
-  color: #398ab9;
+  color: #1c658c;
 }
 @media only screen and (max-width: 450px) {
   main .newsletter .new {
     width: 200px;
     height: 40px;
-  }
-}
-main .newsletter .button {
-  height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  background-color: #d8d2cb;
-  border-color: #1c658c;
-  border-style: solid;
-  border-radius: 10px;
-  width: 420px;
-  color: #1c658c;
-  cursor: pointer;
-}
-@media only screen and (max-width: 450px) {
-  main .newsletter .button {
-    height: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 320px;
   }
 }
 
@@ -418,16 +331,6 @@ main .contact-form {
   main .contact-form {
     width: 360px;
   }
-}
-main .contact-form .formulario .title-form {
-  color: grey;
-  text-align: center;
-  font-size: 35px;
-}
-main .contact-form .formulario .sub-title-form {
-  color: grey;
-  text-align: center;
-  font-size: 15px;
 }
 main .contact-form .formulario form .p-form label {
   display: block;
@@ -448,7 +351,7 @@ main .contact-form .formulario form .p-form textarea {
   padding-left: 10px;
   margin-bottom: 20px;
   padding-top: 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 450px) {
   main .contact-form .formulario form .p-form textarea {
@@ -468,7 +371,7 @@ main .contact-form .formulario form .p-form input {
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 450px) {
   main .contact-form .formulario form .p-form input {
@@ -476,29 +379,59 @@ main .contact-form .formulario form .p-form input {
     height: 30px;
   }
 }
-main .contact-form .button-2 {
-  height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  background-color: #1c658c;
-  border-color: #1c658c;
-  border-style: solid;
-  border-radius: 10px;
-  width: 420px;
-  color: #fbfbfb;
-  cursor: pointer;
+main .contact-form .aviso {
+  font-size: 20px;
+}
+
+section h1, main .sub-title, main .title-news {
+  color: #595959;
+  font-size: 70px;
+  text-align: center;
 }
 @media only screen and (max-width: 450px) {
-  main .contact-form .button-2 {
-    height: 45px;
-    width: 320px;
+  section h1, main .sub-title, main .title-news {
+    font-size: 40px;
   }
 }
-main .contact-form .aviso {
-  font-size: 15px;
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  section h1, main .sub-title, main .title-news {
+    font-size: 55px;
+  }
+}
+
+main .contact-form .formulario .title-form {
+  color: #595959;
+  font-size: 35px;
+  text-align: center;
+}
+
+main .contact-form .formulario .sub-title-form {
+  color: #595959;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-home .p-home, main .text-servicio, main .p-new {
+  color: #595959;
+  font-size: 30px;
+  text-align: center;
+  line-height: 2;
+}
+@media only screen and (max-width: 450px) {
+  .container-home .p-home, main .text-servicio, main .p-new {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .container-home .p-home, main .text-servicio, main .p-new {
+    font-size: 25px;
+  }
+}
+
+main .noti-1, main .enlace-infobae, main .noti-2, main .newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

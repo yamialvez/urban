@@ -1,139 +1,112 @@
-@import'../base/variables';
-@import'../base/listas';
-
-main{
+main {
   .title-news {
-    font-size: nth($font-size,5);
-    text-align: center;
-    color: $font-color;
+    @extend %title;
     font-weight: 200;
     padding: 20px;
+
     @media only screen and (max-width: 450px) {
-        font-size:  nth($font-size,1);
-        font-weight: 200;
-        padding: 20px;
-      }
-      @media only screen and (min-width: 451px) and (max-width: 960px){
-        font-size:  nth($font-size,6);
-        font-weight: 300;
-        padding: 30px;
-      }
+      font-weight: 200;
+      padding: 20px;
+    }
+
+    @media only screen and (min-width: 451px) and (max-width: 960px) {
+      font-weight: 300;
+      padding: 30px;
+    }
   }
-  .noti-1{
-    display: flex;
-    justify-content: center;
-    .caja:hover{
+
+  .noti-1 {
+    @extend %flex;
+
+    .caja:hover {
       transform: scale(1.5);
       transition-property: all;
       transition-duration: 2s;
     }
-    .img-infobae{
+
+    .img-infobae {
       width: 60%;
       height: 500px;
+
       @media only screen and (max-width: 450px) {
-          width: 300px;
-          height: 200px;
-        }
-        @media only screen and (min-width: 451px) and (max-width: 960px){
-          width: 400px;
-          height: 300px;
-        }
+        width: 300px;
+        height: 200px;
+      }
+
+      @media only screen and (min-width: 451px) and (max-width: 960px) {
+        width: 400px;
+        height: 300px;
+      }
     }
   }
-  .enlace-infobae{
-    display: flex;
-    justify-content: center;
-    .enlace-news{
+
+  .enlace-infobae {
+    @extend %flex;
+
+    .enlace-news {
       text-decoration: none;
       font-size: 30px;
-      color: rgb(55, 145, 32);
+      color: #1c658c;
       font-weight: bo;
+
       @media only screen and (max-width: 450px) {
-          font-size:  nth($font-size,3);
-        }
-        @media only screen and (min-width: 451px) and (max-width: 960px){
-            font-size:  nth($font-size,2);
-          }
+        font-size: 20px;
+      }
+
+      @media only screen and (min-width: 451px) and (max-width: 960px) {
+        font-size: 25px;
+      }
     }
   }
-  .p-new{
-        font-size:  nth($font-size,2);
-        text-align: center;
-        width: 100%;
-        top: 5%;
-        color: $font-color;
-        line-height: 2;
-        @media only screen and (max-width: 450px) {
-          font-size:  nth($font-size,4);
-        }
-        @media only screen and (min-width: 451px) and (max-width: 960px){
-          font-size:  nth($font-size,2);
-        }
+
+  .p-new {
+    @extend %parrafos;
+    width: 100%;
+    top: 5%;
   }
-  .noti-2{
-    display: flex;
-    justify-content: center;
-    .caja:hover{
+
+  .noti-2 {
+    @extend %flex;
+
+    .caja:hover {
       transform: scale(1.5);
       transition-property: all;
       transition-duration: 2s;
     }
-    .img-ranking{
+
+    .img-ranking {
       width: 400px;
       height: 400px;
       border: solid 3px #565264;
+
       @media only screen and (max-width: 450px) {
-          width: 300px;
-          height: 300px;
-        }
+        width: 300px;
+        height: 300px;
+      }
     }
   }
-  .newsletter{
-    display: flex;
-    justify-content: space-evenly;
+
+  .newsletter {
+    @extend %flex;
     padding-top: 100px;
     padding-bottom: 10px;
-    font-size:  nth($font-size,3);
+    font-size: 20px;
+
     @media only screen and (max-width: 450px) {
-        font-size:  nth($font-size,4);
-      }
-      
-    .new{
+      font-size: 20px;
+      padding-bottom: 50px;
+    }
+
+    .new {
       width: 400px;
       height: 60px;
       text-align: center;
-      color: #398ab9;
+      color: #1c658c;
+
       @media only screen and (max-width: 450px) {
-          width: 200px;
-          height: 40px;
-        }
-    }
-    .button{
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    background-color: #d8d2cb;
-    border-color: #1c658c;
-    border-style: solid;
-    border-radius: 10px;
-    width: 420px;
-    color: #1c658c;
-    cursor: pointer;
-    @media only screen and (max-width: 450px) {
-        height: 25px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        width: 320px;
+        width: 200px;
+        height: 40px;
       }
     }
   }
 }
-
-
-
-
