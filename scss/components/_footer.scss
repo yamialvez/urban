@@ -1,0 +1,97 @@
+@import'../base/variables';
+@import'../base/listas';
+
+footer {
+
+  .footer-container {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    bottom: 100rem;
+
+
+    .logo-footer {
+      width: 100px;
+      height: 100px;
+
+      @media only screen and (max-width: 450px) {
+        width: 80px;
+        height: 80px;
+      }
+
+      @media only screen and (min-width: 451px) and (max-width: 960px) {
+        width: 90px;
+        height: 90px;
+      }
+
+
+    }
+
+    .mapa-del-sitio {
+      .mps {
+        list-style: none;
+
+
+        .enlace-footer {
+          color: black;
+          font-size: nth($font-size,4 );
+          text-decoration: none;
+
+          @media only screen and (max-width: 450px) {
+            font-size: 9px;
+          }
+
+          @media only screen and (min-width: 451px) and (max-width: 960px) {
+            font-size: 12px;
+          }
+
+        }
+      }
+    }
+  }
+
+  .redes {
+    list-style: none;
+
+    .enlace-footer {
+      color: black;
+      font-size: nth($font-size,4 );
+      text-decoration: none;
+
+      @media only screen and (max-width: 450px) {
+        color: black;
+        font-size: nth($font-size-responsive,1 ) ;
+      }
+
+      @media only screen and (min-width: 451px) and (max-width: 960px) {
+        color: black;
+        font-size: nth($font-size-responsive,2 ) ;
+      }
+
+    }
+
+    .img-redes {
+      height: 40px;
+      width: 40px;
+      margin: 2px;
+      padding: 1px;
+    }
+
+  }
+
+  .copy {
+    background-color: black;
+    color:$font-color;
+    font-size: nth($font-size,3 );
+    text-align: center;
+
+    @media only screen and (max-width: 450px) {
+      font-size:  nth($font-size-responsive,1 );
+    }
+
+    @media only screen and (min-width: 451px) and (max-width: 960px) {
+      font-size:  nth($font-size-responsive,2 );
+    }
+
+  }
+}

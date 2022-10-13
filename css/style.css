@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Serif";
+}
+
+.background-nav {
+  background-color: lightgrey;
+}
+.background-nav .logo-nav {
+  width: 5rem;
+  height: 5rem;
+}
+@media only screen and (max-width: 450px) {
+  .background-nav .logo-nav {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .background-nav .logo-nav {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.container-home .p-home {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  top: 5%;
+  color: grey;
+  line-height: 2;
+}
+@media only screen and (max-width: 450px) {
+  .container-home .p-home {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .container-home .p-home {
+    font-size: 20px;
+  }
+}
+.container-home .nosotros {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 450px) {
+  .container-home .nosotros {
+    display: block;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .container-home .nosotros {
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .container-home .nosotros #maps {
+    width: 380px;
+    height: 230px;
+    border: solid gray 3px;
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .container-home .nosotros #maps {
+    width: 475px;
+    height: 325px;
+    border: solid gray 3px;
+    margin: 20px;
+  }
+}
+.container-home .nosotros .equipo .foto-equipo {
+  width: 600px;
+  height: 450px;
+  border: solid gray 3px;
+}
+@media only screen and (max-width: 450px) {
+  .container-home .nosotros .equipo .foto-equipo {
+    width: 380px;
+    height: 240px;
+    border: solid gray 3px;
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .container-home .nosotros .equipo .foto-equipo {
+    width: 475px;
+    height: 325px;
+    border: solid gray 3px;
+    margin: 20px;
+  }
+}
+
+footer .footer-container {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  bottom: 100rem;
+}
+footer .footer-container .logo-footer {
+  width: 100px;
+  height: 100px;
+}
+@media only screen and (max-width: 450px) {
+  footer .footer-container .logo-footer {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  footer .footer-container .logo-footer {
+    width: 90px;
+    height: 90px;
+  }
+}
+footer .footer-container .mapa-del-sitio .mps {
+  list-style: none;
+}
+footer .footer-container .mapa-del-sitio .mps .enlace-footer {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 450px) {
+  footer .footer-container .mapa-del-sitio .mps .enlace-footer {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  footer .footer-container .mapa-del-sitio .mps .enlace-footer {
+    font-size: 12px;
+  }
+}
+footer .redes {
+  list-style: none;
+}
+footer .redes .enlace-footer {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 450px) {
+  footer .redes .enlace-footer {
+    color: black;
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  footer .redes .enlace-footer {
+    color: black;
+    font-size: 12px;
+  }
+}
+footer .redes .img-redes {
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  padding: 1px;
+}
+footer .copy {
+  background-color: black;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 450px) {
+  footer .copy {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  footer .copy {
+    font-size: 12px;
+  }
+}
+
+section h1 {
+  color: grey;
+  font-size: 35px;
+}
+section .container {
+  margin-bottom: 40px;
+}
+section .container .proy-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+main .text-servicio {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  top: 5%;
+  color: grey;
+  line-height: 2;
+}
+@media only screen and (max-width: 450px) {
+  main .text-servicio {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .text-servicio {
+    font-size: 20px;
+  }
+}
+main .sub-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 100;
+  padding: 20px;
+  text-decoration: none;
+  width: 100%;
+}
+@media only screen and (max-width: 450px) {
+  main .sub-title {
+    font-size: 35px;
+  }
+}
+main .sub-title .colorServ {
+  color: grey;
+  text-decoration: none;
+}
+main .img-servicios {
+  width: 100%;
+  height: 800px;
+  justify-content: center;
+}
+@media only screen and (max-width: 450px) {
+  main .img-servicios {
+    width: 380px;
+    height: 300px;
+    margin: 30px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .img-servicios {
+    width: 580px;
+    height: 500px;
+    margin: 50px;
+  }
+}
+
+main .title-news {
+  font-size: 70px;
+  text-align: center;
+  color: grey;
+  font-weight: 200;
+  padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main .title-news {
+    font-size: 35px;
+    font-weight: 200;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .title-news {
+    font-size: 55px;
+    font-weight: 300;
+    padding: 30px;
+  }
+}
+main .noti-1 {
+  display: flex;
+  justify-content: center;
+}
+main .noti-1 .caja:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 2s;
+}
+main .noti-1 .img-infobae {
+  width: 60%;
+  height: 500px;
+}
+@media only screen and (max-width: 450px) {
+  main .noti-1 .img-infobae {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .noti-1 .img-infobae {
+    width: 400px;
+    height: 300px;
+  }
+}
+main .enlace-infobae {
+  display: flex;
+  justify-content: center;
+}
+main .enlace-infobae .enlace-news {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(55, 145, 32);
+  font-weight: bo;
+}
+@media only screen and (max-width: 450px) {
+  main .enlace-infobae .enlace-news {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .enlace-infobae .enlace-news {
+    font-size: 30px;
+  }
+}
+main .p-new {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  top: 5%;
+  color: grey;
+  line-height: 2;
+}
+@media only screen and (max-width: 450px) {
+  main .p-new {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .p-new {
+    font-size: 30px;
+  }
+}
+main .noti-2 {
+  display: flex;
+  justify-content: center;
+}
+main .noti-2 .caja:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 2s;
+}
+main .noti-2 .img-ranking {
+  width: 400px;
+  height: 400px;
+  border: solid 3px #565264;
+}
+@media only screen and (max-width: 450px) {
+  main .noti-2 .img-ranking {
+    width: 300px;
+    height: 300px;
+  }
+}
+main .newsletter {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main .newsletter {
+    font-size: 15px;
+  }
+}
+main .newsletter .new {
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  color: #398ab9;
+}
+@media only screen and (max-width: 450px) {
+  main .newsletter .new {
+    width: 200px;
+    height: 40px;
+  }
+}
+main .newsletter .button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-color: #d8d2cb;
+  border-color: #1c658c;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  color: #1c658c;
+  cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  main .newsletter .button {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 320px;
+  }
+}
+
+main .contact-form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 450px) {
+  main .contact-form {
+    width: 360px;
+  }
+}
+main .contact-form .formulario .title-form {
+  color: grey;
+  text-align: center;
+  font-size: 35px;
+}
+main .contact-form .formulario .sub-title-form {
+  color: grey;
+  text-align: center;
+  font-size: 15px;
+}
+main .contact-form .formulario form .p-form label {
+  display: block;
+  float: center;
+}
+main .contact-form .formulario form .p-form label span {
+  color: #1c658c;
+}
+main .contact-form .formulario form .p-form textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1c658c;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 450px) {
+  main .contact-form .formulario form .p-form textarea {
+    background-color: #fbfbfb;
+    width: 308px;
+    height: 100px;
+  }
+}
+main .contact-form .formulario form .p-form input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1c658c;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 450px) {
+  main .contact-form .formulario form .p-form input {
+    width: 308px;
+    height: 30px;
+  }
+}
+main .contact-form .button-2 {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #1c658c;
+  border-color: #1c658c;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  color: #fbfbfb;
+  cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  main .contact-form .button-2 {
+    height: 45px;
+    width: 320px;
+  }
+}
+main .contact-form .aviso {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

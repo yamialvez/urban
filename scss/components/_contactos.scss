@@ -1,0 +1,105 @@
+@import'../base/variables';
+@import'../base/listas';
+main {
+  .contact-form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    padding-right: 30px;
+    @media only screen and (max-width: 450px) {
+              width: 360px;}
+
+    .formulario {
+      .title-form {  
+        color: $font-color;
+        text-align: center;
+        font-size: nth($font-size,1 );}
+
+      .sub-title-form { 
+        color: $font-color;
+        text-align: center;
+        font-size: nth($font-size,4 );}
+
+      form {
+        .p-form {
+          label {
+            display: block;
+            float: center;
+
+            span {
+              color: #1c658c;
+            }
+          }
+
+          textarea {
+            background-color: #fbfbfb;
+            width: 405px;
+            height: 150px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #1c658c;
+            margin-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            font-size: nth($font-size,4 );
+            @media only screen and (max-width: 450px) {
+                background-color: #fbfbfb;
+                width: 308px;
+                height: 100px;}
+          }
+
+          input {
+            background-color: #fbfbfb;
+            width: 408px;
+            height: 40px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #1c658c;
+            margin-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            font-size: nth($font-size,4 );
+            @media only screen and (max-width: 450px) {
+                 width: 308px;
+                 height: 30px;}
+          }
+        }
+      }
+    }
+
+    .button-2 {
+      height: 45px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      text-transform: uppercase;
+      background-color: #1c658c;
+      border-color: #1c658c;
+      border-style: solid;
+      border-radius: 10px;
+      width: 420px;
+      color: #fbfbfb;
+      cursor: pointer;
+      @media only screen and (max-width: 450px) {     
+          height: 45px;
+          width: 320px;
+        }    
+    }
+
+      .aviso{
+        font-size: nth($font-size,4 );
+      }
+  }
+}
+
+
+
