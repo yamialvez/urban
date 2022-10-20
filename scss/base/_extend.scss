@@ -1,49 +1,42 @@
-%title {
-    color: #595959;
-    font-size: 70px;
-    text-align: center;
+ %title {
+     color: #595959;
+     font-size: 70px;
+     text-align: center;
 
-    @media only screen and (max-width: 450px) {
-        font-size: 40px;
-    }
+     @media only screen and (max-width: 450px) {
+         font-size: 40px;
+     }
 
-    @media only screen and (min-width: 451px) and (max-width: 960px) {
-        font-size: 55px;
-    }
+     @media only screen and (min-width: 451px) and (max-width: 960px) {
+         font-size: 55px;
+     }
 
-}
+ }
 
-%sub-title {
-    color: #595959;
-    font-size: 35px;
-    text-align: center;
-}
+ %sub-title {
+     color: #595959;
+     font-size: 35px;
+     text-align: center;
+ }
 
-%h3 {
-    color: #595959;
-    font-size: 20px;
-    text-align: center;
-}
-
-
-%parrafos {
-    color: #595959;
-    font-size: 30px;
-    text-align: center;
-    line-height: 2;
-
-    @media only screen and (max-width: 450px) {
-        font-size: 20px;
-    }
-
-    @media only screen and (min-width: 451px) and (max-width: 960px) {
-        font-size: 25px;
-    }
-}
+ %h3 {
+     color: #595959;
+     font-size: 20px;
+     text-align: center;
+ }
 
 
-%flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ %parrafos {
+     color: #595959;
+     font-size: 30px;
+     text-align: center;
+     line-height: 2;
+
+     @media only screen and (max-width: 450px) {
+         font-size: 20px;
+     }
+
+     @media only screen and (min-width: 451px) and (max-width: 960px) {
+         font-size: 25px;
+     }
+ }

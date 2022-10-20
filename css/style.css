@@ -428,10 +428,4 @@ main .contact-form .formulario .sub-title-form {
   }
 }
 
-main .noti-1, main .enlace-infobae, main .noti-2, main .newsletter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /*# sourceMappingURL=style.css.map */
