@@ -412,8 +412,8 @@ main .contact-form .formulario .sub-title-form {
 }
 
 .container-home .p-home, main .text-servicio, main .p-new {
-  color: #595959;
-  font-size: 30px;
+  color: black;
+  font-size: 25px;
   text-align: center;
   line-height: 2;
 }
@@ -426,6 +426,12 @@ main .contact-form .formulario .sub-title-form {
   .container-home .p-home, main .text-servicio, main .p-new {
     font-size: 25px;
   }
+}
+
+main .noti-1, main .enlace-infobae, main .noti-2, main .newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

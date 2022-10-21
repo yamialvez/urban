@@ -17,8 +17,7 @@ main {
   }
 
   .noti-1 {
-
-
+    @extend %flex;
 
     .caja:hover {
       transform: scale(1.5);
@@ -43,7 +42,7 @@ main {
   }
 
   .enlace-infobae {
-
+    @extend %flex;
 
     .enlace-news {
       text-decoration: none;
@@ -68,7 +67,7 @@ main {
   }
 
   .noti-2 {
-
+    @extend %flex;
 
     .caja:hover {
       transform: scale(1.5);
@@ -89,7 +88,7 @@ main {
   }
 
   .newsletter {
-
+    @extend %flex;
     padding-top: 100px;
     padding-bottom: 10px;
     font-size: 20px;
